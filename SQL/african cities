@@ -1,0 +1,3 @@
+select distinct(city.NAME) from CITY 
+join COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
+WHERE COUNTRY.CONTINENT = "Africa";
